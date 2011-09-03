@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CAABB1314119F21002C2B94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB1214119F21002C2B94 /* UIKit.framework */; };
+		8CAABB1514119F21002C2B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB1414119F21002C2B94 /* Foundation.framework */; };
+		8CAABB1714119F21002C2B94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB1614119F21002C2B94 /* CoreGraphics.framework */; };
+		8CAABB1914119F21002C2B94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB1814119F21002C2B94 /* QuartzCore.framework */; };
+		8CAABB1B14119F21002C2B94 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB1A14119F21002C2B94 /* OpenGLES.framework */; };
+		8CAABB2114119F21002C2B94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB1F14119F21002C2B94 /* InfoPlist.strings */; };
+		8CAABB2414119F21002C2B94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAABB2314119F21002C2B94 /* main.m */; };
+		8CAABB2A14119F21002C2B94 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB2814119F21002C2B94 /* MainWindow.xib */; };
+		8CAABB3714119F21002C2B94 /* TDTDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB3514119F21002C2B94 /* TDTDViewController.xib */; };
+		8CAABB4E14119FEA002C2B94 /* TDTDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAABB4014119FEA002C2B94 /* TDTDAppDelegate.m */; };
+		8CAABB4F14119FEA002C2B94 /* TDTDCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAABB4214119FEA002C2B94 /* TDTDCamera.m */; };
+		8CAABB5014119FEA002C2B94 /* TDTDGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAABB4414119FEA002C2B94 /* TDTDGLView.m */; };
+		8CAABB5114119FEA002C2B94 /* TDTDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAABB4614119FEA002C2B94 /* TDTDViewController.m */; };
+		8CAABB591411A16B002C2B94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB581411A16B002C2B94 /* AVFoundation.framework */; };
+		8CAABB5B1411A1B1002C2B94 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB5A1411A1B1002C2B94 /* CoreVideo.framework */; };
+		8CAABB651411A5B3002C2B94 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAABB641411A5B3002C2B94 /* CoreMedia.framework */; };
+		8CAABB661411A782002C2B94 /* DirectDisplayShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB4814119FEA002C2B94 /* DirectDisplayShader.fsh */; };
+		8CAABB671411A782002C2B94 /* DirectDisplayShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB4914119FEA002C2B94 /* DirectDisplayShader.vsh */; };
+		8CAABB681411A782002C2B94 /* PositionShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB4A14119FEA002C2B94 /* PositionShader.fsh */; };
+		8CAABB691411A782002C2B94 /* PositionShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB4B14119FEA002C2B94 /* PositionShader.vsh */; };
+		8CAABB6A1411A782002C2B94 /* ThresholdShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB4C14119FEA002C2B94 /* ThresholdShader.fsh */; };
+		8CAABB6B1411A782002C2B94 /* ThresholdShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8CAABB4D14119FEA002C2B94 /* ThresholdShader.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CAABB0E14119F21002C2B94 /* TDTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAABB1214119F21002C2B94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CAABB1414119F21002C2B94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CAABB1614119F21002C2B94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CAABB1814119F21002C2B94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8CAABB1A14119F21002C2B94 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8CAABB1E14119F21002C2B94 /* TDTD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDTD-Info.plist"; sourceTree = "<group>"; };
+		8CAABB2014119F21002C2B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CAABB2214119F21002C2B94 /* TDTD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDTD-Prefix.pch"; sourceTree = "<group>"; };
+		8CAABB2314119F21002C2B94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CAABB2914119F21002C2B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8CAABB3614119F21002C2B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TDTDViewController.xib; sourceTree = "<group>"; };
+		8CAABB3F14119FEA002C2B94 /* TDTDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDAppDelegate.h; sourceTree = "<group>"; };
+		8CAABB4014119FEA002C2B94 /* TDTDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDAppDelegate.m; sourceTree = "<group>"; };
+		8CAABB4114119FEA002C2B94 /* TDTDCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDCamera.h; sourceTree = "<group>"; };
+		8CAABB4214119FEA002C2B94 /* TDTDCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDCamera.m; sourceTree = "<group>"; };
+		8CAABB4314119FEA002C2B94 /* TDTDGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDGLView.h; sourceTree = "<group>"; };
+		8CAABB4414119FEA002C2B94 /* TDTDGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDGLView.m; sourceTree = "<group>"; };
+		8CAABB4514119FEA002C2B94 /* TDTDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTDViewController.h; sourceTree = "<group>"; };
+		8CAABB4614119FEA002C2B94 /* TDTDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTDViewController.m; sourceTree = "<group>"; };
+		8CAABB4814119FEA002C2B94 /* DirectDisplayShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.fsh; sourceTree = "<group>"; };
+		8CAABB4914119FEA002C2B94 /* DirectDisplayShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.vsh; sourceTree = "<group>"; };
+		8CAABB4A14119FEA002C2B94 /* PositionShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PositionShader.fsh; sourceTree = "<group>"; };
+		8CAABB4B14119FEA002C2B94 /* PositionShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PositionShader.vsh; sourceTree = "<group>"; };
+		8CAABB4C14119FEA002C2B94 /* ThresholdShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ThresholdShader.fsh; sourceTree = "<group>"; };
+		8CAABB4D14119FEA002C2B94 /* ThresholdShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ThresholdShader.vsh; sourceTree = "<group>"; };
+		8CAABB581411A16B002C2B94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8CAABB5A1411A1B1002C2B94 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8CAABB641411A5B3002C2B94 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CAABB0B14119F21002C2B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAABB651411A5B3002C2B94 /* CoreMedia.framework in Frameworks */,
+				8CAABB5B1411A1B1002C2B94 /* CoreVideo.framework in Frameworks */,
+				8CAABB591411A16B002C2B94 /* AVFoundation.framework in Frameworks */,
+				8CAABB1314119F21002C2B94 /* UIKit.framework in Frameworks */,
+				8CAABB1514119F21002C2B94 /* Foundation.framework in Frameworks */,
+				8CAABB1714119F21002C2B94 /* CoreGraphics.framework in Frameworks */,
+				8CAABB1914119F21002C2B94 /* QuartzCore.framework in Frameworks */,
+				8CAABB1B14119F21002C2B94 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CAABB0314119F20002C2B94 = {
+			isa = PBXGroup;
+			children = (
+				8CAABB641411A5B3002C2B94 /* CoreMedia.framework */,
+				8CAABB5A1411A1B1002C2B94 /* CoreVideo.framework */,
+				8CAABB581411A16B002C2B94 /* AVFoundation.framework */,
+				8CAABB1C14119F21002C2B94 /* TDTD */,
+				8CAABB1114119F21002C2B94 /* Frameworks */,
+				8CAABB0F14119F21002C2B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAABB0F14119F21002C2B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAABB0E14119F21002C2B94 /* TDTD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAABB1114119F21002C2B94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CAABB1214119F21002C2B94 /* UIKit.framework */,
+				8CAABB1414119F21002C2B94 /* Foundation.framework */,
+				8CAABB1614119F21002C2B94 /* CoreGraphics.framework */,
+				8CAABB1814119F21002C2B94 /* QuartzCore.framework */,
+				8CAABB1A14119F21002C2B94 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CAABB1C14119F21002C2B94 /* TDTD */ = {
+			isa = PBXGroup;
+			children = (
+				8CAABB3E14119FEA002C2B94 /* Classes */,
+				8CAABB4714119FEA002C2B94 /* Shaders */,
+				8CAABB2814119F21002C2B94 /* MainWindow.xib */,
+				8CAABB3514119F21002C2B94 /* TDTDViewController.xib */,
+				8CAABB1D14119F21002C2B94 /* Supporting Files */,
+			);
+			path = TDTD;
+			sourceTree = "<group>";
+		};
+		8CAABB1D14119F21002C2B94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CAABB1E14119F21002C2B94 /* TDTD-Info.plist */,
+				8CAABB1F14119F21002C2B94 /* InfoPlist.strings */,
+				8CAABB2214119F21002C2B94 /* TDTD-Prefix.pch */,
+				8CAABB2314119F21002C2B94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CAABB3E14119FEA002C2B94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CAABB3F14119FEA002C2B94 /* TDTDAppDelegate.h */,
+				8CAABB4014119FEA002C2B94 /* TDTDAppDelegate.m */,
+				8CAABB4114119FEA002C2B94 /* TDTDCamera.h */,
+				8CAABB4214119FEA002C2B94 /* TDTDCamera.m */,
+				8CAABB4314119FEA002C2B94 /* TDTDGLView.h */,
+				8CAABB4414119FEA002C2B94 /* TDTDGLView.m */,
+				8CAABB4514119FEA002C2B94 /* TDTDViewController.h */,
+				8CAABB4614119FEA002C2B94 /* TDTDViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8CAABB4714119FEA002C2B94 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				8CAABB4814119FEA002C2B94 /* DirectDisplayShader.fsh */,
+				8CAABB4914119FEA002C2B94 /* DirectDisplayShader.vsh */,
+				8CAABB4A14119FEA002C2B94 /* PositionShader.fsh */,
+				8CAABB4B14119FEA002C2B94 /* PositionShader.vsh */,
+				8CAABB4C14119FEA002C2B94 /* ThresholdShader.fsh */,
+				8CAABB4D14119FEA002C2B94 /* ThresholdShader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CAABB0D14119F21002C2B94 /* TDTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAABB3A14119F21002C2B94 /* Build configuration list for PBXNativeTarget "TDTD" */;
+			buildPhases = (
+				8CAABB0A14119F21002C2B94 /* Sources */,
+				8CAABB0B14119F21002C2B94 /* Frameworks */,
+				8CAABB0C14119F21002C2B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDTD;
+			productName = TDTD;
+			productReference = 8CAABB0E14119F21002C2B94 /* TDTD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CAABB0514119F20002C2B94 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8CAABB0814119F20002C2B94 /* Build configuration list for PBXProject "TDTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CAABB0314119F20002C2B94;
+			productRefGroup = 8CAABB0F14119F21002C2B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CAABB0D14119F21002C2B94 /* TDTD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAABB0C14119F21002C2B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAABB661411A782002C2B94 /* DirectDisplayShader.fsh in Resources */,
+				8CAABB671411A782002C2B94 /* DirectDisplayShader.vsh in Resources */,
+				8CAABB681411A782002C2B94 /* PositionShader.fsh in Resources */,
+				8CAABB691411A782002C2B94 /* PositionShader.vsh in Resources */,
+				8CAABB6A1411A782002C2B94 /* ThresholdShader.fsh in Resources */,
+				8CAABB6B1411A782002C2B94 /* ThresholdShader.vsh in Resources */,
+				8CAABB2114119F21002C2B94 /* InfoPlist.strings in Resources */,
+				8CAABB2A14119F21002C2B94 /* MainWindow.xib in Resources */,
+				8CAABB3714119F21002C2B94 /* TDTDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CAABB0A14119F21002C2B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAABB2414119F21002C2B94 /* main.m in Sources */,
+				8CAABB4E14119FEA002C2B94 /* TDTDAppDelegate.m in Sources */,
+				8CAABB4F14119FEA002C2B94 /* TDTDCamera.m in Sources */,
+				8CAABB5014119FEA002C2B94 /* TDTDGLView.m in Sources */,
+				8CAABB5114119FEA002C2B94 /* TDTDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CAABB1F14119F21002C2B94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAABB2014119F21002C2B94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CAABB2814119F21002C2B94 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAABB2914119F21002C2B94 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8CAABB3514119F21002C2B94 /* TDTDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAABB3614119F21002C2B94 /* en */,
+			);
+			name = TDTDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CAABB3814119F21002C2B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CAABB3914119F21002C2B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8CAABB3B14119F21002C2B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTD/TDTD-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TDTD/TDTD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CAABB3C14119F21002C2B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTD/TDTD-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TDTD/TDTD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CAABB0814119F20002C2B94 /* Build configuration list for PBXProject "TDTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAABB3814119F21002C2B94 /* Debug */,
+				8CAABB3914119F21002C2B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8CAABB3A14119F21002C2B94 /* Build configuration list for PBXNativeTarget "TDTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAABB3B14119F21002C2B94 /* Debug */,
+				8CAABB3C14119F21002C2B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CAABB0514119F20002C2B94 /* Project object */;
+}
